@@ -1,0 +1,22 @@
+.mainTitle{
+    color: var(--crema);
+    position: absolute;
+    top: 20px;
+    left: 8vw;
+    font-size: 72px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.mainSubtitle{
+    top: 100px;
+    position: absolute;
+    left: 8vw;
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 1024px){
+    .mainTitle, .mainSubtitle{
+        left: 10vw;
+    }
+}
