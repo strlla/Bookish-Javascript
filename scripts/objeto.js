@@ -1,16 +1,14 @@
-class Libro {
+class Book {
     id = '';
     title = '';
     author = '';
     price = 0;
-    isNew = true;
 
-    constructor(id, title, author, price, isNew) {
+    constructor(id, title, author, price) {
         this.id = id;
         this.title = title;
         this.author = author;
         this.price = price;
-        this.new = isNew;
     }
 
     getPrice() {
