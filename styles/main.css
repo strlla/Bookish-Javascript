@@ -16,32 +16,13 @@
     font-weight: 400;
 }
 
-.sectionContainer{
+.mostPopular{
     width: 88vw;
     margin: 0 auto;
-    padding: 10px;
-    background-color: var(--violeta-oscuro);
-    border-radius: 10px;
 }
-
-.sectionContainer > h3 {
-    color: var(--crema);
+.mostPopular > h3 {
+    color: var(--aguamarina);
     font-size: 30px;
-}
-
-#popularContainer{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-column-gap: 20px;
-       -moz-column-gap: 20px;
-            column-gap: 20px;
-    row-gap: 20px;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
 }
 
 @media only screen and (min-width: 1024px){
