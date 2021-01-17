@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bookish</title>
+        <link rel="icon" href="./favicon.svg" />
+        <link rel="stylesheet" href="./styles/globals.css">
+        <link rel="stylesheet" href="./styles/header.css">
+        <link rel="stylesheet" href="./styles/main.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href="./index.html"><img src="./favicon.svg" alt="logo" height="60px"/></a>
+            <nav class="navWrapper">
+                <ul>
+                    <li class="navItem">Inicio</li>
+                    <li class="navItem">Explorar</li>
+                    <li class="navItem">Perfil</li>
+                    <li class="navItem itemSelected"><a href="./mi-orden.html">Mi orden</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <br/>
+            <section class="sectionContainer">
+                <div id="cartContainer"></div>
+            </section>>
+        </main>
+        <script defer src="./scripts/clsBook.js"></script>
+        <script defer src="./scripts/clsCart.js"></script>
+        <script defer src="./scripts/mi-orden.js"></script>
+    </body>
+</html>
